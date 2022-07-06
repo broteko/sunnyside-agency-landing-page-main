@@ -267,7 +267,7 @@ h6 {
 
 .about-section__item.inline-text.graphic {
   color: #25564b;
-  background-image: url("/images/desktop/image-graphic-design.jpg");
+  background-image: url("/images/mobile/image-graphic-design.jpg");
 }
 
 .about-section__item.inline-text.graphic .about-section__item__desc {
@@ -276,7 +276,7 @@ h6 {
 
 .about-section__item.inline-text.photo {
   color: #19536b;
-  background-image: url("/images/desktop/image-photography.jpg");
+  background-image: url("/images/mobile/image-photography.jpg");
 }
 
 .about-section__item.inline-text.photo .about-section__item__desc {
@@ -420,115 +420,24 @@ h6 {
 
 @media (min-width: 1024px) {
   .about-section {
-    display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-bottom: 100px;
-  }
-  .about-section__item {
-    margin-bottom: 0;
-  }
-  .about-section__item h2 {
-    font-weight: 900;
-  }
-  .about-section__item picture {
-    width: 100%;
-    height: 100%;
-  }
-  .about-section__item img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
   }
   .about-section__item.descCont {
     padding: 70px;
+    text-align: left;
   }
   .about-section__item.descCont:first-of-type {
     grid-row-start: 1;
   }
-  .about-section__item.inline-text {
-    background-position: center;
-    background-size: cover;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  .about-section__item.inline-text h2 {
-    font-size: 22px;
-  }
   .about-section__item.inline-text .about-section__item__desc {
-    text-align: center;
     padding: 0 118px 40px;
-    margin-top: 15px;
   }
   .about-section__item.inline-text.graphic {
-    color: #25564b;
     background-image: url("/images/desktop/image-graphic-design.jpg");
   }
-  .about-section__item.inline-text.graphic .about-section__item__desc {
-    color: #25564b;
-  }
   .about-section__item.inline-text.photo {
-    color: #19536b;
     background-image: url("/images/desktop/image-photography.jpg");
-  }
-  .about-section__item.inline-text.photo .about-section__item__desc {
-    color: #19536b;
-  }
-  .about-section__item__desc {
-    color: #818498;
-    line-height: 2rem;
-    margin: 30px 0 40px;
-  }
-  .about-section__item__readMore {
-    font-family: "Fraunces", serif;
-    text-transform: uppercase;
-  }
-  .about-section__item__readMore--txt {
-    position: relative;
-    padding: 0 8px;
-  }
-  .about-section__item__readMore--txt::after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    left: 0;
-    z-index: -1;
-    width: 100%;
-    height: 10px;
-    border-radius: 6px;
-    background-color: #fad400;
-    opacity: 0.3;
-  }
-  .about-section__item__readMore--txt::before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 100%;
-    top: 15px;
-    border-radius: 6px;
-    height: 10px;
-    -webkit-transition-property: right;
-    transition-property: right;
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out;
-  }
-  .about-section__item__readMore--txt:hover {
-    cursor: pointer;
-  }
-  .about-section__item__readMore--txt:hover::before {
-    right: 0;
-  }
-  .about-section__item__readMore--txt.yellow::before, .about-section__item__readMore--txt.yellow::after {
-    background-color: #fad400;
-  }
-  .about-section__item__readMore--txt.red::before, .about-section__item__readMore--txt.red::after {
-    background-color: #fe7867;
-  }
-  #testimonials {
-    text-align: center;
   }
   #testimonials h3 {
     font-size: calc(1.3125rem + 0.75vw);
@@ -559,42 +468,11 @@ h6 {
   #testimonials .client-testimonials__item:not(:last-of-type) {
     margin-bottom: 0;
   }
-  #testimonials .client-testimonials__item__img {
-    border-radius: 50%;
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-  }
-  #testimonials .client-testimonials__item__img div {
-    width: 100px;
-    height: 100px;
-    background-position: center;
-    background-size: contain;
-  }
   #testimonials .client-testimonials__item__desc {
-    color: #818498;
-    line-height: 2rem;
     margin: 40px 15px 60px;
-  }
-  #testimonials .client-testimonials__item__name {
-    font-family: "Fraunces", serif;
-    font-weight: 900;
-    margin-bottom: 15px;
-    font-size: 20px;
-  }
-  #testimonials .client-testimonials__item__title {
-    color: #a7abae;
-    font-size: 16px;
-  }
-  #photo-gallery {
-    display: flex;
   }
   #photo-gallery .photo-gallery-images {
     flex: 20%;
-  }
-  #photo-gallery .photo-gallery-images img {
-    width: 100%;
-    height: 100%;
   }
 }
 
@@ -795,6 +673,7 @@ footer .social-media-links a:hover svg path, footer .social-media-links a:focus 
 
 @media (min-width: 1024px) {
   header {
+    background-image: url("../images/desktop/image-header.jpg");
     padding: 30px 25px 0;
   }
   header .nav-bar {
@@ -803,48 +682,6 @@ footer .social-media-links a:hover svg path, footer .social-media-links a:focus 
   }
   header .nav-bar__btn {
     display: none;
-  }
-  header .nav-bar .logo {
-    background-image: url("../images/logo.svg");
-    width: 124px;
-    height: 24px;
-    background-repeat: no-repeat;
-  }
-  header .nav-bar nav {
-    display: block;
-  }
-  header .nav-bar nav a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s;
-  }
-  header .nav-bar nav a:not(:last-child) {
-    margin-right: 50px;
-  }
-  header .nav-bar nav a:hover, header .nav-bar nav a:focus {
-    color: #19536b;
-  }
-  header .nav-bar nav a.btn {
-    text-transform: uppercase;
-    font-family: "Fraunces", serif;
-    color: black !important;
-    background-color: white;
-    border-radius: 24px;
-    padding: 15px 25px;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  header .nav-bar nav a.btn:hover, header .nav-bar nav a.btn:focus {
-    color: white !important;
-    background-color: rgba(255, 255, 255, 0.3);
-    cursor: pointer;
-  }
-  header .header-title {
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.5rem;
-    text-align: center;
-    margin-top: 100px;
-    position: unset;
   }
   header .header-title .nextArrow {
     top: 370px;
