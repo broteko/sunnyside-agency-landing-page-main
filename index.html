@@ -106,8 +106,8 @@
     <section id="photo-gallery" data-aos="zoom-in-down" data-aos-easing="ease-out-cubic" data-aos-anchor-placement="top-bottom">
       <div v-for="img in images" class="photo-gallery-images">
         <picture>
-          <source media="(min-width:650px)" :srcset="'/images/' + 'desktop/' +img.url">
-          <img :src="'/images/' + 'mobile/' +img.url" :alt="img.alt">
+          <source media="(min-width:650px)" :srcset="'../images/' + 'desktop/' +img.url">
+          <img :src="'../images/' + 'mobile/' +img.url" :alt="img.alt">
         </picture>
       </div>
     </section>
