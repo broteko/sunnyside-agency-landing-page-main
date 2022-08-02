@@ -42,14 +42,14 @@
             }
             &.graphic {
                 color: $color-dark-desaturated-cyan;
-                background-image: url("./images/mobile/image-graphic-design.jpg");
+                background-image: url("../images/mobile/image-graphic-design.jpg");
                 .about-section__item__desc {
                     color: $color-dark-desaturated-cyan;
                 }
             }
             &.photo {
                 color: $color-dark-blue;
-                background-image: url("./images/mobile/image-photography.jpg");
+                background-image: url("../images/mobile/image-photography.jpg");
                 .about-section__item__desc {
                     color: $color-dark-blue;
                 }
@@ -194,10 +194,10 @@
                     padding: 0 118px 40px;
                 }
                 &.graphic {
-                    background-image: url("./images/desktop/image-graphic-design.jpg");
+                    background-image: url("../images/desktop/image-graphic-design.jpg");
                 }
                 &.photo {
-                    background-image: url("./images/desktop/image-photography.jpg");
+                    background-image: url("../images/desktop/image-photography.jpg");
                 }
             }
         }

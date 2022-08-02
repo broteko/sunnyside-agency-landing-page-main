@@ -267,7 +267,7 @@ h6 {
 
 .about-section__item.inline-text.graphic {
   color: #25564b;
-  background-image: url("./images/mobile/image-graphic-design.jpg");
+  background-image: url("../images/mobile/image-graphic-design.jpg");
 }
 
 .about-section__item.inline-text.graphic .about-section__item__desc {
@@ -276,7 +276,7 @@ h6 {
 
 .about-section__item.inline-text.photo {
   color: #19536b;
-  background-image: url("./images/mobile/image-photography.jpg");
+  background-image: url("../images/mobile/image-photography.jpg");
 }
 
 .about-section__item.inline-text.photo .about-section__item__desc {
@@ -434,10 +434,10 @@ h6 {
     padding: 0 118px 40px;
   }
   .about-section__item.inline-text.graphic {
-    background-image: url("./images/desktop/image-graphic-design.jpg");
+    background-image: url("../images/desktop/image-graphic-design.jpg");
   }
   .about-section__item.inline-text.photo {
-    background-image: url("./images/desktop/image-photography.jpg");
+    background-image: url("../images/desktop/image-photography.jpg");
   }
   #testimonials h3 {
     font-size: calc(1.3125rem + 0.75vw);
