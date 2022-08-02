@@ -477,7 +477,7 @@ h6 {
 }
 
 header {
-  background-image: url("./images/mobile/image-header.jpg");
+  background-image: url("../images/mobile/image-header.jpg");
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -532,7 +532,7 @@ header .nav-bar__btn.active {
 }
 
 header .nav-bar .logo {
-  background-image: url("./images/logo.svg");
+  background-image: url("../images/logo.svg");
   width: 124px;
   height: 24px;
   background-repeat: no-repeat;
@@ -673,7 +673,7 @@ footer .social-media-links a:hover svg path, footer .social-media-links a:focus 
 
 @media (min-width: 1024px) {
   header {
-    background-image: url("./images/desktop/image-header.jpg");
+    background-image: url("../images/desktop/image-header.jpg");
     padding: 30px 25px 0;
   }
   header .nav-bar {
