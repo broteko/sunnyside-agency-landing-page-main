@@ -95,7 +95,7 @@
       <div class="client-testimonials">
         <div class="client-testimonials__item" v-for="item of items">
           <div class="client-testimonials__item__img">
-            <div :style="{backgroundImage : 'url('+ '/images/' + item.img + ')'}"></div>
+            <div :style="{backgroundImage : 'url('+ './images/' + item.img + ')'}"></div>
           </div>
           <div class="client-testimonials__item__desc">{{item.desc}}</div>
           <div class="client-testimonials__item__name">{{item.name}}</div>
@@ -107,7 +107,7 @@
       <div v-for="img in images" class="photo-gallery-images">
         <picture>
           <source media="(min-width:650px)" :srcset="'../images/' + 'desktop/' +img.url">
-          <img :src="'../images/' + 'mobile/' +img.url" :alt="img.alt">
+          <img :src="'./images/' + 'mobile/' +img.url" :alt="img.alt">
         </picture>
       </div>
     </section>

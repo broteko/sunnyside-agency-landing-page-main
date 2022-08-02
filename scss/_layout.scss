@@ -1,5 +1,5 @@
 header {
-    background-image: url("../images/mobile/image-header.jpg");
+    background-image: url("./images/mobile/image-header.jpg");
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ header {
             }
         }
         .logo {
-            background-image: url("../images/logo.svg");
+            background-image: url("./images/logo.svg");
             width: 124px;
             height: 24px;
             background-repeat: no-repeat;
@@ -189,7 +189,7 @@ footer {
 @media (min-width: 1024px) {
     header {
         //min-height: 772px;
-        background-image: url("../images/desktop/image-header.jpg");
+        background-image: url("./images/desktop/image-header.jpg");
         padding: 30px 25px 0;
         .nav-bar {
             &__btn {
